@@ -1,3 +1,32 @@
 body {
-  background: rgb(174, 174, 255);
+  background: rgb(255, 252, 215);
+  margin-top: 100px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(46, 163, 199);
+}
+h1 {
+  color: rgb(136, 98, 98);
+}
+.now {
+  display: block;
+  text-align: right;
+  padding-right: 100px;
+}
+.before {
+  display: block;
+  text-align: left;
+  padding-left: 100px;
+}
+@media (min-width: 800px) {
+  h1 {
+    text-align: center;
+    color: rgb(77, 56, 56);
+  }
+  p {
+    text-align: center;
+  }
 }
